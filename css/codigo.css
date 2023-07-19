@@ -1,0 +1,269 @@
+/* Inconsolata */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
+/* Chilanka */
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.nav-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-main ul {
+    display: flex;
+    font-family: 'Inconsolata';
+    list-style: none;
+}
+
+.nav-main .nav-menu-rigth a {
+    cursor: pointer;
+    color: #000;
+}
+  
+nav li {
+    float: right;
+}
+  
+nav li a {
+    color: #000;
+    font-weight: bold;
+    letter-spacing: 2px;
+    display: block;
+    text-align: center;
+    margin: 15px 20px;
+    padding: 0;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+nav li a span {
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+  
+nav li a:hover, .nav-menu-rigth a:hover {
+    transform: scale(1.1, 1.1);
+    color: #099;
+    text-shadow: 4px 4px 8px #000;
+}
+
+#fondo {
+    width: 100%;
+    background-color: #1c1c1c;
+}
+
+#img-fondo {
+    width: 80%;
+    margin: auto;
+}
+
+#img-fondo img {
+    width: 100%;
+    margin: 5px 0 0;
+}
+
+main {
+    width: 100%;
+    margin: 10px 0;
+    min-height: 200px;
+    font-family: 'Chilanka';
+}
+
+main section {
+    width: 80%;
+    margin: 10px auto;
+}
+
+article div {
+    margin: 5em 0;
+}
+
+#uno, #dos {
+    display: flex;
+}
+
+#uno #img-main-uiux, #texto-uiux {
+    width: 30%;
+    margin: 0 auto;
+}
+
+#uno #texto-uiux {
+    font-size: 25px;
+    align-self: center;
+}
+
+#uno #img-main-uiux img {
+    width: 100%;
+}
+
+#dos div {
+    width: 30%;
+    margin: 0 auto;
+}
+
+#dos div #img-dos {
+    width: 50%;
+    margin: 0 auto;
+}
+#dos div #texto-dos {
+    width: 70%;
+    margin: 10px auto;
+}
+
+#dos div #img-dos img {
+    width: 100%;
+}
+
+footer {
+    color: #fff;
+    font-family: 'Chilanka';
+    display: flex;
+    width: 100%;
+    min-height: 300px;
+    background-image: url("../imagenes/footer.jpeg");
+    background-size: cover;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+#footer-min {
+    padding: 1.5em;
+    display: flex;
+    align-self: center;
+    width: 80%;
+    margin: 0 auto;
+    min-height: 100px;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+#footer-min #control {
+    width: 30%;
+    margin: 10px auto;
+}
+
+#footer-min #terminos {
+    display: flex;
+    width: 60%;
+    margin: 10px auto;
+}
+
+#terminos div {
+    width: 30%;
+    margin: 0 auto;
+}
+
+
+#terminos div a {
+    color: #fff;
+    text-decoration: none;
+    transition: .2s;
+}
+
+#terminos div a:hover {
+    color: burlywood;
+}
+
+#social-media i{
+    margin: 10px 20px;
+    font-size: 25px;
+}
+
+footer dd {
+    margin: 5px;
+    margin-inline-start: 30px;
+}
+
+#card, #mod-orden {
+    width: 80%;
+    margin: 1em auto;
+    display: flex;
+}
+
+#mod-orden div {
+    text-align: center;
+    font-family: 'Chilanka';
+    width: 30%;
+    margin: 0 auto;
+}
+
+#mod-orden button {
+    border: 1px solid #000;
+    transition: .4s;
+    cursor: pointer;
+    margin: 10px 0;
+    padding: 0.5em 1em;
+}
+
+#mod-orden button:hover {
+    background-color: antiquewhite;
+}
+
+#img-card {
+    width: 40%;
+    margin: 0 auto;
+}
+
+#img-card img {
+    width: 100%;
+}
+
+#texto-card {
+    width: 40%;
+    margin: 0 auto;
+    align-self: center;
+    font-size: 20px;
+    font-family: 'Chilanka';
+}
+
+#tabla-carta {
+    width: 80%;
+    margin: 1em auto;
+}
+
+table.egt {
+    font-family: 'Inconsolata', 'arial';
+    width: 100%;
+    padding: 0.5em;
+    border-left: hidden;
+    border-right: hidden;
+    background-color: #fff;
+}
+
+caption {
+    border-radius: 10px;
+    margin: 0.3em;
+    padding: 1.2em;
+}
+
+td {
+    letter-spacing: 1px;
+}
+
+th, td {
+    padding: 1.2em;
+    width: 25%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+td span {
+    color: red;
+}
